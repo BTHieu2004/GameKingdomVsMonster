@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454bd6e515b32894dbc95d04a3858e6b, type: 3}
+  m_Name: Warrior_Red
+  m_EditorClassIdentifier: 
+  id: 
+  namePlan: warrior
+  typePlant: 3
+  description: "M\u1ED9t chi\u1EBFn binh m\u1EA1nh m\u1EBD v\u1EC1 t\u1EA5n c\xF4ng
+    v\xE0 ph\xF2ng th\u1EE7"
+  sprite: {fileID: 4809932544684580446, guid: 9f746f8be7bf96e4abaef6d488d08680, type: 3}
+  Price: 200
+  hpPlant: 200
+  damage: 20
+  rangeAttack: 0.44
+  cooldownTimeTower: 15
+  unLock: 1
+  selected: 1
+  objPlant: {fileID: 1651562687621061404, guid: 635cdba9b36149f4684e72f831af73bf, type: 3}
+  bullet: {fileID: 0}
+  sounds:
+  - {fileID: 11400000, guid: 1d81333a537699f4382837e6f56ea304, type: 2}
+  - {fileID: 11400000, guid: dc2aeabe8651b404da69c140a8a018e7, type: 2}

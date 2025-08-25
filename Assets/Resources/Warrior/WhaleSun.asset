@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454bd6e515b32894dbc95d04a3858e6b, type: 3}
+  m_Name: WhaleSun
+  m_EditorClassIdentifier: 
+  id: 
+  namePlan: WhaleSun
+  typePlant: 1
+  description: sinh san sun
+  sprite: {fileID: 8288426215254106694, guid: 48f8e2c268d081a4d9c2a7c66fb73469, type: 3}
+  Price: 50
+  hpPlant: 100
+  damage: 0
+  rangeAttack: 0
+  cooldownTimeTower: 5
+  unLock: 1
+  selected: 0
+  objPlant: {fileID: 2108706427279271366, guid: 60209b7937447bb499dde04aa240b9bf, type: 3}
+  bullet: {fileID: 0}
+  sounds:
+  - {fileID: 11400000, guid: dc2aeabe8651b404da69c140a8a018e7, type: 2}

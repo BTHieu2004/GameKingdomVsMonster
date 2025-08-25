@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454bd6e515b32894dbc95d04a3858e6b, type: 3}
+  m_Name: Archer_Blue
+  m_EditorClassIdentifier: 
+  id: 
+  namePlan: Archer
+  typePlant: 2
+  description: "B\u1EAFn t\xEAn"
+  sprite: {fileID: 5940929062476048998, guid: d723b55cfc6e31f4b8a9e6633319bbcd, type: 3}
+  Price: 150
+  hpPlant: 100
+  damage: 5
+  rangeAttack: 0
+  cooldownTimeTower: 10
+  unLock: 0
+  selected: 0
+  objPlant: {fileID: 5274819131259155910, guid: 21eb6d4ee9bae3d498de13d66f1276b3, type: 3}
+  bullet: {fileID: 11400000, guid: 58fa8be7777ed5e4f858c8caac8179bd, type: 2}
+  sounds:
+  - {fileID: 11400000, guid: dc2aeabe8651b404da69c140a8a018e7, type: 2}
