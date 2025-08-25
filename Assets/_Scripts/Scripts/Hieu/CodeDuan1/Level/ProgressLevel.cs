@@ -76,8 +76,8 @@ public class ProgressLevel : HieuSingleton<ProgressLevel>
         if (this.countEnemyDead < this.levelSO.countEnemySpawn) return;
         GameManager.Instance.PlayerWin();  
         this.CompleteAchivement();
-        
-        this.levelSO.completedLevel = true;
+        this.UnLockNextLevel();
+        this.levelSO.complete = true;
     }
     public virtual void IncreaseSun(int quantitySun)
     {
@@ -96,5 +96,11 @@ public class ProgressLevel : HieuSingleton<ProgressLevel>
     {
         int idLevel = this.levelSO.idLevel;
         AchivementManager.instance.GetAchivementTypeID(EnumAchiverment.Progress,idLevel);
+    }
+    protected virtual void UnLockNextLevel()
+    {
+        int index = this.levelDataSO.listLevelSO.IndexOf(this.levelSO);
+        LevelSO nextLevel = this.LevelDataSO.listLevelSO[index + 1];
+        nextLevel.unlock = true;
     }
 }

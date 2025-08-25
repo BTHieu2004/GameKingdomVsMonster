@@ -16,7 +16,7 @@ MonoBehaviour:
   nameEnemy: EnemyTNT
   damage: 1000
   hpEnemy: 50
-  speedEnemy: 4
+  speedEnemy: 3
   objEnemy: {fileID: 2135982256890536726, guid: e0de87d545253554d9b75229b91fb122, type: 3}
   effects:
   - {fileID: 11400000, guid: eb29aa350faadab46b8c2eeb1a4d9bd6, type: 2}

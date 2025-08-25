@@ -15,7 +15,7 @@ public class ShopManager : HieuSingleton<ShopManager>
     protected virtual void LoadKingdomSo()
     {
         if (this.Plants.Count > 0) return;
-        this.Plants = Resources.LoadAll<PlantSO>("Plant").ToList();
+        this.Plants = Resources.LoadAll<PlantSO>("Warrior").ToList();
     }
 }
 

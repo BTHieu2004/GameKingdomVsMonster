@@ -45,7 +45,7 @@ public class BtnSelectLevel : BtnMenuAbstract
     }
     protected virtual void LevelCanSelect()
     {
-        if (!this.levelSO.completedLevel)
+        if (!this.levelSO.unlock)
         {
             this.button.interactable = false;
             Color color;

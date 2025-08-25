@@ -62,8 +62,7 @@ public class BtnShop : BtnMenuAbstract
             Color color;
             if (ColorUtility.TryParseHtmlString("#4C4C4C", out color))
             {
-                this.image.color = color;
-                Debug.Log("cp");
+                this.image.color = color;                
             }
             return;
         }
