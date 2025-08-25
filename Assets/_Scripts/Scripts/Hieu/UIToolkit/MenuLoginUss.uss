@@ -1,0 +1,15 @@
+.BtnLogin:hover {
+}
+
+#Achivement > .unity-scroll-view--vertical > #unity-content-and-vertical-scroll-container > #unity-content-viewport > #unity-content-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btnAchi:hover {
+    background-color: rgba(236, 215, 39, 0.94);
+}

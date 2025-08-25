@@ -1,0 +1,43 @@
+.btnAchi {
+    background-size: 20% 20%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+    flex-shrink: 0;
+    position: relative;
+    width: 100%;
+    bottom: auto;
+}
+
+.textAchi {
+    font-size: 20px;
+    width: 20%;
+    height: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    -unity-slice-scale: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}

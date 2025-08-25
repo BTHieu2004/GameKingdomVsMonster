@@ -1,0 +1,36 @@
+.LoginHolder {
+    flex-grow: 0;
+    background-image: url("project://database/Assets/_Data/_Sprites/GeminiSprites/Gemini_Generated_Image_edkkxwedkkxwedkk-removebg-preview.png?fileID=2637073628440808889&guid=08c023345378f914fadfba3f12503732&type=3#Gemini_Generated_Image_edkkxwedkkxwedkk-removebg-preview_0");
+    width: 50%;
+    height: 50%;
+    min-height: auto;
+    position: relative;
+    justify-content: flex-start;
+    align-self: center;
+    align-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    -unity-background-scale-mode: stretch-to-fill;
+    background-position-y: center 0;
+    background-position-x: center 0;
+    background-repeat: no-repeat no-repeat;
+    top: 25%;
+    padding-top: 41px;
+    padding-right: 41px;
+    padding-bottom: 41px;
+    padding-left: 41px;
+}
+
+#LoginHolder Label {
+    color: rgb(255, 239, 0);
+    font-size: 42px;
+}
+
+.BtnLogin:hover {
+    background-color: rgba(255, 237, 0, 0.8);
+}
+
+.unity-content {
+    color: rgb(213, 91, 91);
+}

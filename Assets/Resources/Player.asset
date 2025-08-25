@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fce0fa8a683d104b9564dc0547488c8, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  id: 1
+  namePlayer: hieu
+  money: 0
+  plants:
+  - {fileID: 11400000, guid: 8891afa4b38a0aa47b71215c4846ada6, type: 2}
+  - {fileID: 11400000, guid: 8699ac067f8feed459e9755031991108, type: 2}
+  - {fileID: 11400000, guid: 722c727154fd681458a85e3c6b9c7b8d, type: 2}
+  - {fileID: 11400000, guid: 17e99a347402ad54ca1677f821e1865f, type: 2}

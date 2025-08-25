@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e089fe55afe5346825640922d4d0c7, type: 3}
+  m_Name: OldMonster
+  m_EditorClassIdentifier: 
+  id: 0
+  nameEnemy: OldMonster
+  damage: 10
+  hpEnemy: 50
+  speedEnemy: 1
+  objEnemy: {fileID: 3601136153688488561, guid: ca52e8f77450f834a933a1b451eaab07, type: 3}
+  effects: []
