@@ -5,7 +5,7 @@ using PlayFab;
 using PlayFab.ClientModels;
 using System;
 using System.Linq;
-using UnityEditor.PackageManager;
+
 
 public class RegisterUser : PlayFabAbstract
 {

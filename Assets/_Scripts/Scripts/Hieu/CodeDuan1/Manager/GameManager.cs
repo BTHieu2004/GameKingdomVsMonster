@@ -1,9 +1,6 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class GameManager : HieuSingleton<GameManager>
 {    
@@ -33,8 +30,8 @@ public class GameManager : HieuSingleton<GameManager>
     }
     public virtual void ExitGame()
     {
-        //Application.Quit();
-        UnityEditor.EditorApplication.isPlaying = false;
+        Application.Quit();
+        //UnityEditor.EditorApplication.isPlaying = false;
 
     }
     public virtual void PauseGame()

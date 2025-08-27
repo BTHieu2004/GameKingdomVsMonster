@@ -12679,6 +12679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackGroundMusic
       objectReference: {fileID: 0}
+    - target: {fileID: 3109214172330226371, guid: 44f6887cf3fa0a14fad6eea5cb1f9c0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14332,9 +14336,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 150522523811933111, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 150522523811933111, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984286234703617004, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1331741447596123561, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
       propertyPath: m_Size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348012540610087243, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1403287957245160980, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
       propertyPath: setDownPlant
@@ -14460,6 +14480,26 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3026819779095464177, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3026819779095464177, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3026819779095464177, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408103017329653392, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408103017329653392, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3895136523399026071, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -14467,6 +14507,18 @@ PrefabInstance:
     - target: {fileID: 4179074590347996633, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -0.00034965566
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393271332410226401, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393271332410226401, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393271332410226401, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4656572007758214879, guid: 7d1eb01f67d1ca54ebaf7abebf419813, type: 3}
       propertyPath: setDownPlant
