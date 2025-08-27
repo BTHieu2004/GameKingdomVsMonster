@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   idLevel: 2
   nameLevel: Level2
-  countEnemySpawn: 5
-  countSunStart: 1000
+  countEnemySpawn: 4
+  countSunStart: 200
   bonus: 300
-  completedLevel: 0
+  complete: 0
+  unlock: 0
   sun: {fileID: 11400000, guid: 06ff19a64c3a12c4abf40bc50bab8c11, type: 2}
   soundBackGround: {fileID: 0}
   typeEnemyInLevel:

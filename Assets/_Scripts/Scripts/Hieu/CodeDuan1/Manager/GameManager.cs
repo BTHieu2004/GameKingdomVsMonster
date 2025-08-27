@@ -20,7 +20,7 @@ public class GameManager : HieuSingleton<GameManager>
     public virtual void PlayerLose()
     {
         onPlayerLose?.Invoke();
-        //Time.timeScale = 0f;
+        Time.timeScale = 0f;
     }
     public virtual void LoadScene(string nameScene)
     {

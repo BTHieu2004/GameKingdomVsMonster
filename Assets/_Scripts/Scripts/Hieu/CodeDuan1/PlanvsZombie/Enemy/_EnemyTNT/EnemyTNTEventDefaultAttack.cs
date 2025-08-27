@@ -20,6 +20,7 @@ public class EnemyTNTEventDefaultAttack : EnemyEventCloseRangeAttack
         if (!this.isColliderPlant) return;
         this.InstanceEffect();
         this.PlayMusicSFX();
+        ProgressLevel.Instance.CountEnemyDead(1);
         this.enemyAbstract.Spawner.Despawn(this.enemyAbstract);
     }
     protected virtual void InstanceEffect()

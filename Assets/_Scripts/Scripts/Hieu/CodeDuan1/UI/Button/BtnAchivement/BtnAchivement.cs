@@ -11,7 +11,14 @@ public class BtnAchivement : BtnMenuAbstract
     [SerializeField] protected TextMeshProUGUI textComplete;
     [SerializeField] protected InfoAchivementSO achivementSO;
     public InfoAchivementSO AchivementSO => achivementSO;
-    [SerializeField] protected Image imageBtn;
+    [SerializeField] protected Image imageBtn;    
+    protected override void Start()
+    {
+        base.Start();
+        if (this.achivementSO == null) return;        
+        this.contentIsNotComplete();
+        this.ContentIsComplete();        
+    }    
     protected override void LoadComponents()
     {
         base.LoadComponents();
@@ -19,17 +26,6 @@ public class BtnAchivement : BtnMenuAbstract
         this.LoadTextCount();
         this.LoadTextComplete();
         this.LoadImageBtn();
-    }
-    protected override void Start()
-    {
-        base.Start();
-        this.SetTextBtnAchivement();        
-    }
-    protected override void OnEnable()
-    {
-        base.OnEnable();
-        if (this.achivementSO == null) return;
-        this.SetTextBtnAchivement();
     }
     protected virtual void LoadImageBtn()
     {
@@ -57,10 +53,9 @@ public class BtnAchivement : BtnMenuAbstract
     }
     protected override void OnClick()
     {        
-        this.CompleteAchivement();
-        this.TextComplete();
+        this.CompleteAchivement();        
     }
-    protected virtual void SetTextBtnAchivement()
+    protected virtual void contentIsNotComplete()
     {
         if (this.achivementSO.isClaimed) return;
         this.textContent.text = achivementSO.description;        
@@ -68,16 +63,23 @@ public class BtnAchivement : BtnMenuAbstract
       
     }   
     protected void CompleteAchivement()
-    {
+    {        
         if (!achivementSO.isComplete) return;
-        this.imageBtn.color = Color.yellow;
+        this.CompleteMoney();
         this.achivementSO.isClaimed = true;
+        this.imageBtn.color = Color.yellow;        
+        this.ContentIsComplete();        
     }
-    protected virtual void TextComplete()
+    protected virtual void CompleteMoney()
+    {
+        if (this.achivementSO.isClaimed) return;                           
+        PlayerManager.Instance.PlayerSO.money += this.achivementSO.reward;
+    }
+    protected virtual void ContentIsComplete()
     {
         if (!this.achivementSO.isClaimed) return;
-        this.textComplete.text = "Complete";        
+        this.textContent.text = achivementSO.description;
+        this.textComplete.text = "Complete";
         this.textCount.text = "";
-        PlayerManager.Instance.PlayerSO.money += this.achivementSO.reward;
     }
 }

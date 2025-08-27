@@ -15,7 +15,7 @@ MonoBehaviour:
   idLevel: 1
   nameLevel: Level1
   countEnemySpawn: 3
-  countSunStart: 1000
+  countSunStart: 300
   bonus: 200
   complete: 0
   unlock: 1

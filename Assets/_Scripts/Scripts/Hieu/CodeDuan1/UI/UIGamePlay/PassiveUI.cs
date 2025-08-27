@@ -10,13 +10,13 @@ public class PassiveUI : HieuMonoBehaviour
     protected virtual void Start()
     {        
         GameManager.Instance.onPlayerWin += ShowWinUI;
-        GameManager.Instance.onPlayerLose += HideloseUI;
+        GameManager.Instance.onPlayerLose += ShowLoseUI;
     }
     protected override void OnDisable()
     {
         base.OnDisable();
         GameManager.Instance.onPlayerWin -= ShowWinUI;
-        GameManager.Instance.onPlayerLose -= HideloseUI;
+        GameManager.Instance.onPlayerLose -= ShowLoseUI;
     }
     protected override void LoadComponents()
     {
@@ -38,8 +38,8 @@ public class PassiveUI : HieuMonoBehaviour
     {        
         winPanelUI?.gameObject.SetActive(true);        
     }
-    protected virtual void HideloseUI()
+    protected virtual void ShowLoseUI()
     {
-        //losePanelUI?.gameObject.SetActive(false);        
+        losePanelUI?.gameObject.SetActive(true);        
     }
 }

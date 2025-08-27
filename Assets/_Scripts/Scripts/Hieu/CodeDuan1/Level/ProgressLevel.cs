@@ -99,7 +99,8 @@ public class ProgressLevel : HieuSingleton<ProgressLevel>
     }
     protected virtual void UnLockNextLevel()
     {
-        int index = this.levelDataSO.listLevelSO.IndexOf(this.levelSO);
+        int index = this.levelDataSO.listLevelSO.IndexOf(this.levelSO);        
+        if (index == this.levelDataSO.listLevelSO.Count) return;
         LevelSO nextLevel = this.LevelDataSO.listLevelSO[index + 1];
         nextLevel.unlock = true;
     }
