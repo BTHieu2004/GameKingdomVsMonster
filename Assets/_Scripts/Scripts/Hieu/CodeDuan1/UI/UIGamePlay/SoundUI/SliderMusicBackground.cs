@@ -1,7 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class SliderMusicBackground : SliderMusisicAbstract
+public class SliderMusicBackground : SliderAbstract
 {
     protected override void Start()
     {

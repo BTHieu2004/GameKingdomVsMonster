@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SliderMusicSFX : SliderMusisicAbstract
+public class SliderMusicSFX : SliderAbstract
 {
     protected override void Start()
     {
