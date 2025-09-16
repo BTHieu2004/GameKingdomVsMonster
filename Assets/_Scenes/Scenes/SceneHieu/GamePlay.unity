@@ -1935,6 +1935,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &266761116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 266761117}
+  m_Layer: 0
+  m_Name: HIeu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &266761117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266761116}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1343.5145, y: 483.19174, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &276278465 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4232920961181954355, guid: 5e04310b3926ece47b95099ab824320a, type: 3}
@@ -2775,11 +2806,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6181e9c1d7fa3d346ba10794038fc314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!58 &459851572 stripped
-CircleCollider2D:
-  m_CorrespondingSourceObject: {fileID: 1975409002559585734, guid: a6819d6d578781846926dd2f19cb8d91, type: 3}
-  m_PrefabInstance: {fileID: 614574827}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &519880089 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8740870052066982193, guid: 4e2090992773d5245bea8a33948a7549, type: 3}
@@ -3889,7 +3915,7 @@ PrefabInstance:
     - target: {fileID: 508363518155246789, guid: a6819d6d578781846926dd2f19cb8d91, type: 3}
       propertyPath: capsuleCollider2D
       value: 
-      objectReference: {fileID: 459851572}
+      objectReference: {fileID: 0}
     - target: {fileID: 508363518155246789, guid: a6819d6d578781846926dd2f19cb8d91, type: 3}
       propertyPath: effectMonsterSpawner
       value: 
@@ -16010,4 +16036,8 @@ SceneRoots:
   - {fileID: 1939479536}
   - {fileID: 1210078627}
   - {fileID: 838896809}
+
+  - {fileID: 266761117}
+
   - {fileID: 650321513}
+
